@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["squat_game*"]
+
+[project]
+name = "squat-game"
+version = "0.1.0"
+authors = [{ name = "leejunsu0530", email = "leejunsu0530@gmail.com" }]
+description = "고3 수행평가"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+
+dependencies = [
+    "opencv-python",
+    "mediapipe",
+    "rich",
+    "pyfiglet"
+]
+
+[project.scripts]
+squat-game = "squat_game:main"
+
+[project.urls]
+Homepage = "https://github.com/leejunsu0530/squat-game"
+Repository = "https://github.com/leejunsu0530/squat-game"

@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.scripts]
-squat-game = "squat_game:main"
+run-squat-game = "squat_game:main"
 
 [project.urls]
 Homepage = "https://github.com/leejunsu0530/squat-game"

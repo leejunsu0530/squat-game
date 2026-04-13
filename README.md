@@ -5,6 +5,6 @@
 
 실행 방법
 ```powershell
-pip install https://github.com/leejunsu0530/squat-game
-squat_game
+pip install git+https://github.com/leejunsu0530/squat-game
+run-squat-game
 ```

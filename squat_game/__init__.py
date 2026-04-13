@@ -1,2 +1,2 @@
 def main():
-    pass
+    import squat_game
